@@ -23,7 +23,7 @@ while cv2.waitKey(1) != ord("x"):
    cv2.imshow('SAY HELLO!', personFace)
    cv2.moveWindow('SAY HELLO!', 0, 0)
 
-cv2.waitKey(5000)
+cv2.waitKey(1000)
 capture.release()
 cv2.destroyAllWindows()
 
