@@ -12,7 +12,6 @@ personBody = result[0].plot()
 # Using the plot from the person body to also show how person face is working
 personFace = faceResult[0].plot(img=personBody)
 
-
 cv2.imshow('my window', personFace)
 cv2.moveWindow('my window', 100, 100)
 
