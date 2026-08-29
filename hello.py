@@ -13,7 +13,7 @@ personBody = result[0].plot()
 personFace = faceResult[0].plot(img=personBody)
 
 cv2.imshow('my window', personFace)
-cv2.moveWindow('my window', 100, 100)
+cv2.moveWindow('my window', 1800, 200)
 
 cv2.waitKey(5000)
 cv2.destroyAllWindows()
