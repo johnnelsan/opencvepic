@@ -1,1 +1,1 @@
-This will be the start of the project
+This project will detect faces live on webcam! This is me testing out Open CV!
